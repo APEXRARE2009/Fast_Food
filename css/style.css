@@ -1,0 +1,125 @@
+body {
+	font-family: arial;
+	color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+ul > li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.hero {
+	background: url(../img/contant/hero-bg.png) no-repeat center/cover;
+	height: 100vh;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+}
+
+.logo__img {
+	width: 100px;
+	height: 100px;
+}
+
+.nav {
+}
+
+.nav__list {
+	display: flex;
+	column-gap: 28px;
+}
+
+.nav__item {
+}
+
+.nav__link {
+	color: white;
+	opacity: 70%;
+	text-transform: uppercase;
+	transition: .2s;
+}
+
+.nav__link:hover {
+	opacity: 100%;
+	font-size: 16px;
+	text-shadow: 0 0 .9px white,0 0 .9px white,0 0 .9px white,0 0 .9px white,0 0 .9px white,0 0 .9px white,0 0 .9px white,0 0 .9px white;
+}
+
+.btn {
+	margin: 25px 0;
+	background: #F6762C;
+	width: 165px;
+	height: 49px;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.contain {
+}
+
+.contain__main {
+}
+
+.contain__headline {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0 0 7px 0;
+}
+
+.title {
+	font-size: 57.33px;
+}
+
+.contain__desc {
+	font-size: 18px;
+	opacity: 70%;
+}
