@@ -41,6 +41,7 @@ h6 {
 
 .wrapper {
 	min-height: 100%;
+	background: #1C1C1C;
 }
 
 .container {
@@ -148,4 +149,133 @@ h6 {
 	font-weight: 400;
 	line-height: 1.17;
 	margin: 0 0 42px 0;
+}
+
+.food {
+	padding: 115px 0;
+}
+
+.container {
+}
+
+.food__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.food__item {
+	width: 23%;
+}
+
+.dish {
+	overflow: hidden;
+	background: #312F30;
+	border-radius: 10px;
+}
+
+.dish__img-wrap {
+	width: 100%;
+	height: 175px;
+	overflow: hidden;
+}
+
+.dish__img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: left top;
+}
+
+.dish__desc {
+	padding: 28px 35px 30px;
+	text-align: center;
+}
+
+.dish__title {
+	padding: 0 0 13px 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.15;
+	margin: 0 0 13px 0;
+}
+
+.dish__text {
+}
+
+.paragraf {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	color: rgba(225, 225, 225, .7);
+}
+
+.buy__burger {
+	padding: 73px 0;
+	background: #312F30;
+}
+
+.burger__container {
+	display: flex;
+	align-items: center;
+}
+
+.burger__img-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.burger__img {
+}
+
+.burger__desc {
+}
+
+.burger__column {
+	width: 50%;
+}
+
+.burger__description {
+}
+
+.description {
+	max-height: 371px;
+	padding: 0 0 0 18.6%;
+}
+
+.description__title {
+	font-weight: 500;
+	line-height: 1.18;
+}
+
+.burger__description__title {
+	font-size: 44px;
+	margin: 0 0 24px 0;
+}
+
+.description__text {
+	margin: 0 0 13px 0;
+}
+
+.paragraf {
+}
+
+.price {
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: .1em;
+	margin: 0 0 11px 0;
+}
+
+.price__new {
+	color: #F6762C;
+}
+
+.price__new--size--big {
+	font-size: 20px;
+}
+
+.price__old {
+	color: rgba(246, 118, 44, .5);
+	text-decoration-line: line-through;
 }
