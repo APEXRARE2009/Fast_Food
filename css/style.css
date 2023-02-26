@@ -279,3 +279,76 @@ h6 {
 	color: rgba(246, 118, 44, .5);
 	text-decoration-line: line-through;
 }
+
+.product {
+	padding: 150px 0 146px 0;
+}
+
+.container {
+}
+
+.product__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 30px;
+}
+
+.offer {
+	position: relative;
+}
+
+.offer__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.burger__description {
+}
+
+.prodect__offer {
+	width: 48.7%;
+	height: 300px;
+}
+
+.prodect__offer:nth-child(odd) .offer__description {
+	left: auto;
+	right: 1%;
+}
+
+.offer__description {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	transform: translate(0,-50%);
+	width: 47.6%;
+	left: 9%;
+}
+
+.offer__title {
+	font-size: 30px;
+	line-height: 35px;
+	margin: 0 0 20px 0;
+}
+
+.offer__paragraf {
+	margin: 0 0 11px 0;
+}
+
+.price {
+}
+
+.offer__price {
+	margin: 0 0 11px 0;
+}
+
+.price__new--size--normal {
+	font-size: 16px;
+}
+
+.offer__btn--size--small {
+	padding: 13px 36px;
+	font-size: 12px;
+}
+
