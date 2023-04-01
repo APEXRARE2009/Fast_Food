@@ -501,3 +501,125 @@ h6 {
 	line-height: 14px;
 	color: rgba(225, 225, 225, .7);
 }
+
+.download {
+	background: #312F30;
+	font-family: 'roboto',arial;
+	padding: 62px 0;
+}
+
+.download__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 422px;
+}
+
+.download__title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 47px;
+}
+
+.footer {
+	padding: 125px 0 140px 0;
+	font-family: 'roboto',arial;
+}
+
+.footer__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__content-first {
+	display: flex;
+	flex-direction: column;
+	margin: 0 92px 0 0;
+	gap: 25px 0;
+}
+
+.footer__content-first-wrap {
+	width: 69px;
+}
+
+.footer__content-first-wrap-img {
+	width: 100%;
+	height: 100%;
+}
+
+.footer__content-first-block {
+}
+
+.footer__content-first-block-email {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 8px;
+}
+
+.footer__content-first-block-email-wrap {
+}
+
+.footer__content-first-block-email-wrap-img {
+}
+
+.footer__content-first-block-txt {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(255, 255, 255, .8);
+}
+
+.footer__content-first-block-web {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 8px;
+}
+
+.footer__content-first-block-web-wrap {
+}
+
+.footer__content-first-block-web-wrap-img {
+}
+
+.footer__content-end {
+	display: flex;
+	justify-content: center;
+	column-gap: 158px;
+}
+
+.footer__content-end-block {
+	min-width: 84px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px 0;
+}
+
+.footer__content-end-block-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer__content-end-block-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px 0;
+}
+
+.footer__content-end-block-list-link {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(255, 255, 255, .8);
+}
+
+.footer__content-end-block-wrap {
+	display: flex;
+	column-gap: 10px;
+}
+
+.footer__content-end-block-wrap-img {
+}
